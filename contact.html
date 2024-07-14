@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - All Clean</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <h1>Contact Us</h1>
+    </header>
+    <div class="contact-form">
+        <h2>We'd love to hear from you!</h2>
+        <form action="submit_contact.php" method="post" class="box-form">
+            <label for="name" class="box-label">Name:</label>
+            <input type="text" id="name" name="name" class="box-input" required>
+
+            <label for="email" class="box-label">Email:</label>
+            <input type="email" id="email" name="email" class="box-input" required>
+
+            <label for="message" class="box-label">Message:</label>
+            <textarea id="message" name="message" rows="4" class="box-input" required></textarea>
+
+            <button type="submit" class="box-button">Send</button>
+        </form>
+    </div>
+    <footer class="main-footer">
+        <p>&copy; 2024 All Clean. All rights reserved.</p>
+    </footer>
+</body>
+</html>
