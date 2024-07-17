@@ -33,18 +33,18 @@ a:hover {
 form label, form input {
     display: block;
     width: 100%;
-    color: black; /* Ensure form text is readable */
+    color: black; 
 }
 form input[type="submit"] {
     margin-top: 1rem;
-    background-color: #007bff; /* Blue background for the submit button */
+    background-color: #007bff; 
     color: white;
     border: none;
     padding: 0.5rem;
     cursor: pointer;
 }
 form input[type="submit"]:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: #0056b3; 
 }
 footer {
     background-color: #333;
