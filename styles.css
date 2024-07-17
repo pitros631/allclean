@@ -8,7 +8,7 @@ header {
 }
 .content-section {
     margin-bottom: 2rem;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 1rem;
     border-radius: 5px;
 }
